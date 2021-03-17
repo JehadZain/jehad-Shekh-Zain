@@ -8,3 +8,10 @@ Route::get('/home', 'HomeController@index')->name('home') -> middleware('verifie
 Route::get('/', function(){
       return "hi";
 });
+
+Route::get('/redirect/{service}', 'SocialController@redirect ' );
+
+Route::get('/callback/{service}', 'SocialController@callback');
+
+
+
