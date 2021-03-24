@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d4adf7-e60f-467b-8ad3-c2e74460fec4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/starter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +141,7 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -157,7 +158,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/offers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,11 +171,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\starter\resources\views\offers" />
+      <recent name="C:\wamp64\www\starter\app\Http\Controllers" />
+      <recent name="C:\wamp64\www\starter\resources\views\emails" />
       <recent name="C:\wamp64\www\starter\resources\views" />
       <recent name="C:\wamp64\www\starter\resources\views\layouts" />
-      <recent name="C:\wamp64\www\starter\resources\lang\en" />
-      <recent name="C:\wamp64\www\starter\resources\lang\ar" />
-      <recent name="C:\wamp64\www\starter\resources\lang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\starter\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -231,6 +235,41 @@
       <workItem from="1615955877579" duration="1169000" />
       <workItem from="1615959436278" duration="500000" />
       <workItem from="1615982134250" duration="1819000" />
+      <workItem from="1615983984382" duration="919000" />
+      <workItem from="1615985948202" duration="976000" />
+      <workItem from="1615987722891" duration="630000" />
+      <workItem from="1615990122982" duration="1370000" />
+      <workItem from="1616143723715" duration="987000" />
+      <workItem from="1616175697737" duration="5000" />
+      <workItem from="1616317226598" duration="1107000" />
+      <workItem from="1616319871140" duration="317000" />
+      <workItem from="1616322762588" duration="211000" />
+      <workItem from="1616323061173" duration="387000" />
+      <workItem from="1616323463661" duration="7418000" />
+      <workItem from="1616360076190" duration="821000" />
+      <workItem from="1616361728769" duration="530000" />
+      <workItem from="1616362603529" duration="980000" />
+      <workItem from="1616517082219" duration="874000" />
+      <workItem from="1616542771418" duration="1757000" />
+      <workItem from="1616544585814" duration="1749000" />
+      <workItem from="1616546696162" duration="1559000" />
+      <workItem from="1616564350810" duration="1776000" />
+      <workItem from="1616566157032" duration="334000" />
+      <workItem from="1616586546763" duration="595000" />
+      <workItem from="1616590212837" duration="746000" />
+      <workItem from="1616590982994" duration="860000" />
+      <workItem from="1616592794789" duration="2110000" />
+      <workItem from="1616595295791" duration="1508000" />
+      <workItem from="1616599368603" duration="1784000" />
+      <workItem from="1616602285253" duration="1056000" />
+      <workItem from="1616607209460" duration="1458000" />
+      <workItem from="1616609043173" duration="1072000" />
+      <workItem from="1616610850357" duration="511000" />
+      <workItem from="1616615755679" duration="1775000" />
+      <workItem from="1616617674189" duration="736000" />
+      <workItem from="1616619996439" duration="1576000" />
+      <workItem from="1616622470938" duration="702000" />
+      <workItem from="1616623191149" duration="1781000" />
     </task>
     <servers />
   </component>
