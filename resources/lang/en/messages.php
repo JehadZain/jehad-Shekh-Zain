@@ -13,9 +13,24 @@ return [
     |
     */
 
-    "hello gus" => 'Hello gus' ,
-    "welcome" => 'WELCOME' ,
-    "offer name required" => "Offer Name Required" ,
-    "offer name unique" => "Offer Name Must Be Unique ",
-
+    "hello gus" => 'Hello GUS',
+    "welcom" => 'WELCOME ',
+    "offer name required" => 'Offer Name Required',
+    "offer name must be unique" => "offer name must be unique",
+    "Add your offer" => 'Add your offer ',
+    "Offer Name ar" => 'Arabic Offer Name',
+    "Offer Name en" => 'English Offer Name',
+    "Offer Price" => 'Offer Price',
+    "Offer details ar" => 'ar Offer Details',
+    "Offer details en" => 'en Offer Details',
+    "Save Offer" => 'Save',
+    "Offer Name" => "Offer Name ",
+    "Offer details" => "Offer details",
+    "Offer operation" => "operation",
+    "update" => "Edit",
+    "Update your offer" => "Update your offer  ",
+    "Offer photo" => "Photo",
+    "delete" => "delete",
+    "offer not exist" => "offer not exist",
+    "offer deleted successfully" => "offer deleted successfully"
 ];

@@ -13,8 +13,26 @@ return [
     |
     */
 
-    "hello gus" => 'أهلا بكم' ,
-    "welcome" => 'مرحبا' ,
-    "offer name required" => "اسم العرض مطلوب",
-    "offer name unique" => "لا يجب أن يتكرر اسم العرض",
+
+    "hello gus" => 'اهلا بكم ',
+    "welcom" => 'اهلا  ',
+    "offer name required" => 'أسم العرض مطلوب',
+    "offer name must be unique" => 'أسم العرض يجب الا يتكرر',
+    "Add your offer" => 'أضافه عرض جديد ',
+    "Offer Name ar"   => 'أسم العرض العربي',
+    "Offer Name en"   => 'أسم العرض بالانجليزي',
+    "Offer Price"  => 'سعر العرض',
+    "Offer details ar" => 'تفاصيل العرض بالعربي',
+    "Offer details en" => 'تفاصيل العرض بالانجليزي',
+    "Save Offer"  => 'حفظ',
+    "Offer Name" => 'اسم العرض',
+    "Offer details" => 'تفاصيل العرض',
+    "Offer operation" => 'العمليات',
+    "update" => 'تحديث',
+    "Update your offer"  => "تعديل العرض ",
+    "Offer photo" => "الصورة",
+    "delete"  => 'حذف',
+    "offer not exist"  => 'العرض غير موجود',
+    "offer deleted successfully" => 'تم حذف العرض بنجاح'
+
 ];
