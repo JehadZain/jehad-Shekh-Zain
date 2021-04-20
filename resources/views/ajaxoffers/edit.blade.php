@@ -42,7 +42,7 @@
                         @enderror
                     </div>
 
-                    <input type="text" style="display: none" class="form-control" value="{{$offer -> id}}" name="$offer_id">
+                    <input type="text" style="display: none" class="form-control" value="{{$offer -> id}}" name="offer_id">
 
 
                     <div class="form-group">

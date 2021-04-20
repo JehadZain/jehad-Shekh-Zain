@@ -60,15 +60,23 @@ class CrudController extends Controller
         ];
     }*/
     public function getAllOffers(){
-          $offers = Offer::select(
+         /* $offers = Offer::select(
               'id' ,
               'price' ,
               'photo',
               'name_'.LaravelLocalization::getCurrentLocale() .' as name',
               'details_'.LaravelLocalization::getCurrentLocale() .' as details'
-          )-> get();
+          )-> get();*/
+            ######### paginate #########
+           $offers = Offer::select(
+              'id' ,
+              'price' ,
+              'photo',
+              'name_'.LaravelLocalization::getCurrentLocale() .' as name',
+              'details_'.LaravelLocalization::getCurrentLocale() .' as details'
+          )-> paginate(PAGINATION_COUNT);
 
-        return view('offers.all',compact('offers'));
+        return view('offers.paginations',compact('offers'));
     }
     public function editOffer($offer_id){
 
@@ -119,5 +127,8 @@ class CrudController extends Controller
         $video = Video::first();
         event(new VideoViewer($video));
         return view('video') -> with('video', $video);
+    }
+    public function getAllInactiveOffers(){
+       return $inactiveOffers =  Offer::get();
     }
 }

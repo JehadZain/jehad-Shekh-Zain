@@ -2,55 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d4adf7-e60f-467b-8ad3-c2e74460fec4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Events/VideoViewer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/CustomAuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/OfferController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckAge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/IncreaseCounter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/OfferTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617024350.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617024377.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617042711.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617088781.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617088793.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617090672.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617091017.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617107794.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617107831.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617130304.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617130341.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/offers/1617654016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/offers/1617000646jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/offers/1617000789.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/all.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/adminLogin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/customAuth/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/doctors/doctors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/doctors/hospitals.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/offers/all.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/offers/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/video.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Medical.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Patient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Scopes/OfferScope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offers/1617874848.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offers/1617874882.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offers/1617874922.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offers/1618034723.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/services.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/paginations.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Relation/RelationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Relation/RelationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Doctor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Doctor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Hospital.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Hospital.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/offers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ajaxoffers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ajaxoffers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/doctors/doctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/doctors/doctors.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +178,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/doctors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../articles_news" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -220,11 +191,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\starter\app\Scopes" />
+      <recent name="C:\wamp64\www\starter\resources\views\offers" />
       <recent name="C:\wamp64\www\starter\resources\views\doctors" />
       <recent name="C:\wamp64\www\starter\resources\views\auth" />
       <recent name="C:\wamp64\www\starter\app\Models" />
-      <recent name="C:\wamp64\www\starter\resources\views" />
-      <recent name="C:\wamp64\www\starter\resources\views\customAuth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\starter\app\Models" />
@@ -400,6 +371,39 @@
       <workItem from="1617805430852" duration="1884000" />
       <workItem from="1617808347867" duration="1172000" />
       <workItem from="1617812658130" duration="593000" />
+      <workItem from="1617815294038" duration="1020000" />
+      <workItem from="1617873466402" duration="1774000" />
+      <workItem from="1617877376433" duration="305000" />
+      <workItem from="1618034592891" duration="215000" />
+      <workItem from="1618324132973" duration="1772000" />
+      <workItem from="1618325943446" duration="1292000" />
+      <workItem from="1618328168637" duration="611000" />
+      <workItem from="1618400918630" duration="1436000" />
+      <workItem from="1618409713871" duration="2047000" />
+      <workItem from="1618411793282" duration="1779000" />
+      <workItem from="1618413605170" duration="825000" />
+      <workItem from="1618486684854" duration="1799000" />
+      <workItem from="1618489784090" duration="917000" />
+      <workItem from="1618491504865" duration="4609000" />
+      <workItem from="1618496374863" duration="821000" />
+      <workItem from="1618517423252" duration="641000" />
+      <workItem from="1618614549610" duration="645000" />
+      <workItem from="1618660436900" duration="592000" />
+      <workItem from="1618662720896" duration="1062000" />
+      <workItem from="1618664576207" duration="1066000" />
+      <workItem from="1618692214281" duration="1777000" />
+      <workItem from="1618694073382" duration="399000" />
+      <workItem from="1618745601878" duration="1007000" />
+      <workItem from="1618746641400" duration="258000" />
+      <workItem from="1618747054090" duration="970000" />
+      <workItem from="1618780785817" duration="1776000" />
+      <workItem from="1618782588432" duration="1788000" />
+      <workItem from="1618784449650" duration="1758000" />
+      <workItem from="1618786494327" duration="1798000" />
+      <workItem from="1618837542890" duration="349000" />
+      <workItem from="1618861462319" duration="1357000" />
+      <workItem from="1618864006302" duration="247000" />
+      <workItem from="1618930986973" duration="21000" />
     </task>
     <servers />
   </component>

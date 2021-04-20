@@ -3,9 +3,12 @@
 namespace App\Http\Controllers\Relation;
 
 use App\Http\Controllers\Controller;
+use App\Models\Country;
 use App\Models\Doctor;
 use App\Models\Hospital;
+use App\Models\Patient;
 use App\Models\Phone;
+use App\Models\Service;
 use App\User;
 use Illuminate\Http\Request;
 
@@ -104,6 +107,55 @@ class RelationsController extends Controller
         }
         $hospitals->doctors()->delete();
         $hospitals->delete();
-        return redirect() -> route('hospital.all');
+        return redirect()->route('hospital.all');
     }
+
+    public function getDoctorServices()
+    {
+        $doctor = Doctor::find(5);
+        return $doctor->services;
+    }
+
+    public function getServiceDoctors()
+    {
+        $service = Service::find(1);
+        return $service->doctors;
+    }
+
+    public function getDoctorServicesById($doctorId)
+    {
+        $doctor = Doctor::find($doctorId);
+        $services = $doctor->services;  //doctor services
+        $doctors = Doctor::select('id', 'name')->get();
+        $allServices = Service::select('id', 'name')->get(); // all db serves
+        return view('doctors.services', compact('services', 'doctors', 'allServices'));
+    }
+
+    public function saveServicesToDoctors(Request $request)
+    {
+        $doctor = Doctor::find($request->doctor_id);
+        if (!$doctor)
+            return abort('404');
+        //  $doctor ->services()-> attach($request -> servicesId);  // many to many insert to database
+        //  $doctor ->services()-> sync($request -> servicesId);
+        $doctor->services()->syncWithoutDetaching($request->servicesId);
+        return 'success';
+    }
+
+    public function getPatientDoctor()
+    {
+        $patient = Patient::find(2);
+        return $patient->doctor;
+    }
+
+    public function getCountryDoctor()
+    {
+       return $doctors =  Doctor::select('id','name','gender') ->get();
+
+        /*foreach ($doctors as $doctor){
+            $doctor -> gender = $doctor -> gender == 1 ? 'male' : 'famle';
+        }
+        return $doctors;*/
+    }
+
 }
